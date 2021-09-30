@@ -52,4 +52,13 @@ $ git reset <file>  ->  Remove <file> from the staging area, but leave the worki
 $ git revert <commit>  ->  Create new commit that undoes all of the changes made in <commit>, then apply it to the current branch.
 
 
+$ git diff  ->  diff of what is changed but not staged.
+$ git diff --staged  ->  diff of what is staged but not yet committed.
 
+$ git diff --cached  ->  Show difference between staged changes and last commit.
+
+
+
+$ git pull  ->  fetch and merge any commits from the tracking remote branch.
+
+$ git push  ->  Transmit local branch commits to the remote repository branch.
