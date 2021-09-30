@@ -1,3 +1,4 @@
+
 alert("Welcome to this repo of git commands.");
 console.log("Hello World");
 
@@ -8,3 +9,4 @@ const handle = function (fruits) {
 }
 
 handle(fruits);
+
