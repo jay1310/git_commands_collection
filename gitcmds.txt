@@ -55,6 +55,8 @@ $ git revert <commit>  ->  Create new commit that undoes all of the changes made
 $ git stash  ->  Saves uncommitted changes (both staged + unstaged) for later use, and reverts them from your working copy
 $ git stash pop  ->  Removes your stash changes and reapplies them to your working copy
 $ git stash apply  ->  Keeps your stash changes for reuse and reapplies them to your working copy
+$ git stash list ->  List the stash entries that you currently have
+$ git stash clear ->  Remove all the stash entries
 
 
 $ git diff  ->  diff of what is changed but not staged.
@@ -67,3 +69,5 @@ $ git diff --cached  ->  Show difference between staged changes and last commit.
 $ git pull  ->  fetch and merge any commits from the tracking remote branch.
 
 $ git push  ->  Transmit local branch commits to the remote repository branch.
+
+
