@@ -1,5 +1,4 @@
-$ git init <directory>   -> Create empty Git repo in specified directory. 
-
+$ git init <directory>   -> Create empty Git repo in specified directory.
 $ git init  ->  Run with no arguments to initialize the current directory as a git repository.
 
 
@@ -45,9 +44,14 @@ $ git log -<limit>  ->  Limit number of commits by <limit>.
                         e.g. ”git log -5” will limit to 5 commits.
 
 $ git log -p  ->  Display the full diff of each commit.
+$ git log --oneline  -> Condense each commit to a single line.
+$ git log --author=”<pattern>”  -> Search for commits by a particular author
+$ git log -- <file>  -> Only display commits that have the specified file.
 
 
 $ git reset <file>  ->  Remove <file> from the staging area, but leave the working directory unchanged. This unstages a file without overwriting any changes.
+$ git reset --hard  ->  Reset staging area and working directory to match most recent commit and overwrites all changes in the working directory.
+$ git reset <commit> -> Move the current branch tip backward to <commit>, reset the staging area to match, but leave the working directory alone.
 
 $ git revert <commit>  ->  Create new commit that undoes all of the changes made in <commit>, then apply it to the current branch.
 
@@ -62,3 +66,4 @@ $ git diff --cached  ->  Show difference between staged changes and last commit.
 $ git pull  ->  fetch and merge any commits from the tracking remote branch.
 
 $ git push  ->  Transmit local branch commits to the remote repository branch.
+$ git push <remote> --all  -> Push all of your local branches to the specified remote.
