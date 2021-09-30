@@ -52,6 +52,11 @@ $ git reset <file>  ->  Remove <file> from the staging area, but leave the worki
 $ git revert <commit>  ->  Create new commit that undoes all of the changes made in <commit>, then apply it to the current branch.
 
 
+$ git stash  ->  Saves uncommitted changes (both staged + unstaged) for later use, and reverts them from your working copy
+$ git stash pop  ->  Removes your stash changes and reapplies them to your working copy
+$ git stash apply  ->  Keeps your stash changes for reuse and reapplies them to your working copy
+
+
 $ git diff  ->  diff of what is changed but not staged.
 $ git diff --staged  ->  diff of what is staged but not yet committed.
 
