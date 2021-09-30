@@ -1,1 +1,1 @@
-alert("Welcome to this repo.")
+alert("Welcome to this repo of git commands.");
