@@ -70,4 +70,5 @@ $ git pull  ->  fetch and merge any commits from the tracking remote branch.
 
 $ git push  ->  Transmit local branch commits to the remote repository branch.
 
+$ git checkout <remotebranch> ->check out the remote branch like a local branch.
 
