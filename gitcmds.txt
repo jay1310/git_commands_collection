@@ -72,3 +72,5 @@ $ git push  ->  Transmit local branch commits to the remote repository branch.
 
 $ git checkout <remotebranch> ->check out the remote branch like a local branch.
 
+$ git clean -> Removes untracked files from the working directory
+
