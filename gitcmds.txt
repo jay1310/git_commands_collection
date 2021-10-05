@@ -39,6 +39,8 @@ $ git commit -m "message"  ->  Commit the staged snapshot with <message> as the 
 
 $ git commit -a -m <message>  -> stage all the changes and commit the staged snapshot with <message> as the commit message.
 
+$ git commit -m <message> -S  ->  Commit with <message> as the commit message and add signature.
+
 
 $ git log  ->  Display the entire commit history using the default format.
 $ git log -<limit>  ->  Limit number of commits by <limit>. 
@@ -74,4 +76,13 @@ $ git checkout <remotebranch> ->check out the remote branch like a local branch.
 
 $ git clean -> Removes untracked files from the working directory.
 
+
+
+
+$ git config --global credential.helper store -> Prevent ask username and password
+
+$ git remote -v -> View remote repository configuration
+
+
 $ git tag [commitID] -> This command is used to give tags to the specified commit.
+
