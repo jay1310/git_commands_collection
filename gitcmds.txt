@@ -86,3 +86,5 @@ $ git remote -v -> View remote repository configuration
 
 $ git tag [commitID] -> This command is used to give tags to the specified commit.
 
+$ git config --global alias.commend 'commit --amend --no-edit' -> git commend quietly tacks any staged files onto the last commit you created, re-using                                                                       your existing commit message.
+
