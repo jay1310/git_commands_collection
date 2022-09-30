@@ -41,6 +41,11 @@ $ git commit -a -m <message>  -> stage all the changes and commit the staged sna
 
 $ git commit -m <message> -S  ->  Commit with <message> as the commit message and add signature.
 
+$ git uncommit -> undo your last commit 
+
+To keep the changes from the commit you want to undo: `$ git reset --soft HEAD^`
+To destroy the changes from the commit you want to undo: `$ git reset --hard HEAD^`
+
 
 $ git log  ->  Display the entire commit history using the default format.
 $ git log -<limit>  ->  Limit number of commits by <limit>. 
