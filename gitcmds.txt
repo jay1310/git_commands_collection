@@ -86,3 +86,9 @@ $ git remote -v -> View remote repository configuration
 
 $ git tag [commitID] -> This command is used to give tags to the specified commit.
 
+Display the modification on each line of a file:
+$ git blame <file name>
+
+Remove the files from the working tree and from the index:
+$ git rm <file Name>
+
