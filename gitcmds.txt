@@ -36,6 +36,7 @@ $ git add <file>  ->  Stage the changes in a specific file.
 
 
 $ git commit -m "message"  ->  Commit the staged snapshot with <message> as the commit message.
+            e.g: $ git commit -m "Initial Message"
 
 $ git commit -a -m <message>  -> stage all the changes and commit the staged snapshot with <message> as the commit message.
 
