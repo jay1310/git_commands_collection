@@ -5,3 +5,4 @@ to track all file git add .
 
  To clone : git clone https url
 
+Check out this page <a href="https://kartikvirendra.github.io/git_commands_collection/" target="blank">here</a>
